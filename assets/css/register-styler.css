@@ -1,0 +1,187 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 0;
+}
+
+/* used on main.php */
+.bg-darklight {
+  background-color: #999999;
+}
+
+.bg-main {
+  /* The image used */
+  background-image: url("../../assets/images/background-home.jpg");
+
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container-login, .container-daftar {
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.container-home {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(106, 90, 205, .75);
+}
+
+.container-login .col, .container-daftar .col {
+  padding: 0;
+}
+
+.container-login label, .container-daftar label {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.container-login h1, .container-daftar h1 {
+  text-transform: uppercase;
+}
+
+.container-daftar button {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  border: none;
+}
+
+.input-group .input-group-text {
+  border: none;
+}
+
+.input-group > .form-control,
+.input-group > .form-control-plaintext,
+.input-group > .custom-select,
+.input-group > .custom-file {
+  height: 100%;
+  margin-top: 0;
+}
+
+.input-group-text {
+  height: 100%;
+  width: 50px;
+  margin: auto;
+}
+
+/* Full-width input fields */
+.container-login input, .container-daftar input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container-login input:focus, .container-daftar input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  border-radius: 0;
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+
+  width: 100%;
+
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+/* Checkbox  */
+.container-checkbox {
+  padding-left: 35px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container-daftar .container-checkbox, .container-login .container-checkbox {
+  font-weight: lighter;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
