@@ -10,4 +10,3 @@ Sebuah proyek login yang dibangun menggunakan framework CodeIgniter. Adapun fitu
 =======
 # CodeIgniter-FiturLogin
 Proyek fitur login menggunakan framework codeigniter
->>>>>>> 744337f33576edd8c5d7c20cb79b90b8991b6329
