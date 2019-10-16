@@ -7,6 +7,5 @@ Sebuah proyek login yang dibangun menggunakan framework CodeIgniter. Adapun fitu
 - Halaman Login
 - Halaman Daftar
 
-=======
 # CodeIgniter-FiturLogin
 Proyek fitur login menggunakan framework codeigniter
