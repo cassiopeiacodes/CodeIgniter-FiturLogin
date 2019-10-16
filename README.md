@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+-- versi fitur 1.0
+
 # CodeIgniter Login
 
 Sebuah proyek login yang dibangun menggunakan framework CodeIgniter. Adapun fitur dari proyek ini dapat dilihat seperti berikut ini :
@@ -6,8 +7,6 @@ Sebuah proyek login yang dibangun menggunakan framework CodeIgniter. Adapun fitu
 - Halaman Login
 - Halaman Daftar
 
-
-versi fitur 1.0
 =======
 # CodeIgniter-FiturLogin
 Proyek fitur login menggunakan framework codeigniter
